@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'ai' => [
+        'url' => env('AI_API_URL'),
+        'token' => env('GITHUB_TOKEN'),
+    ],
+
 ];
